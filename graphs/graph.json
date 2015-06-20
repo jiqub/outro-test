@@ -19,7 +19,29 @@
                 "width": 72,
                 "height": 72
             }
+        },
+        "core/Output_24k7k": {
+            "component": "core/Output",
+            "metadata": {
+                "label": "core/Output",
+                "x": 504,
+                "y": 180,
+                "width": 72,
+                "height": 72
+            }
         }
     },
-    "connections": []
+    "connections": [
+        {
+            "src": {
+                "process": "core/Kick_rc5dl",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "core/Output_24k7k",
+                "port": "in"
+            },
+            "metadata": {}
+        }
+    ]
 }
