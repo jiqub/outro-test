@@ -1,1 +1,25 @@
-{}
+{
+    "properties": {
+        "name": "graph",
+        "environment": {
+            "type": "noflo-browser"
+        },
+        "icon": ""
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "core/Kick_rc5dl": {
+            "component": "core/Kick",
+            "metadata": {
+                "label": "core/Kick",
+                "x": 252,
+                "y": 180,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": []
+}
