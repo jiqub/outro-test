@@ -4,7 +4,11 @@
         "environment": {
             "type": "noflo-browser"
         },
-        "icon": ""
+        "icon": "",
+        "variables": {
+            "$blah": "asdasda",
+            "$timespan": "03:00:00"
+        }
     },
     "inports": {},
     "outports": {},
